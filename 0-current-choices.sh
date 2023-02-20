@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author    : Erik Dubois
+# Author    : Erik Dubois (I kenneth have begun to alter so blame me not Eric)
 # Website   : https://www.erikdubois.be
 # Website   : https://www.alci.online
 # Website   : https://www.ariser.eu
@@ -13,7 +13,7 @@
 # Website   : https://www.arcolinuxforum.com
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK. I "lived to regret not listenning" -ken
 #
 ##################################################################################################################
 #tput setaf 0 = black
@@ -54,13 +54,13 @@ sh 110-install-arcolinux-software*
 sh 120-install-core-software*
 #sh 130-install-leftwm*
 sh 150-install-chadwm*
-sh 160-install-bluetooth*
-sh 170-install-cups*
+#sh 160-install-bluetooth*
+#sh 170-install-cups*
 
 sh 200-software-AUR-repo*
 #sh 300-sardi-extra-icons-AUR-repo*
 #sh 310-sardi-mint-y-icons-AUR-repo*
-#sh 320-surfn-mint-y-icons-git-AUR-repo*
+sh 320-surfn-mint-y-icons-git-AUR-repo*
 
 echo
 tput setaf 3
