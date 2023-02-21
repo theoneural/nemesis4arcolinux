@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author    : Erik Dubois
+# Author    : Erik Dubois (altered by Kenneth 210223 tuesday) 
 # Website   : https://www.erikdubois.be
 # Website   : https://www.alci.online
 # Website   : https://www.ariser.eu
@@ -31,7 +31,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
-#nemesis-repo added to /etc/pacman.conf
+nemesis-repo added to /etc/pacman.conf
 
 echo
 tput setaf 3
